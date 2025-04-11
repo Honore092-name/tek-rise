@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1a1b22;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #1a1b22;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .download-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #a0f68f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .download-btn:hover {
+    background-color: green;
+    transition: 0.4 ease-in-out;
+
+}
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    position: relative;
+  }
+  
+  .hero-text .greeting {
+    color: #8ef178;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .hero-text h1 {
+    font-size: 70px;
+    line-height: 1.1;
+    margin: 20px 0;
+  }
+  
+  .tagline {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  
+  .tagline span {
+    color: #8ef178;
+    font-weight: bold;
+  }
+  
+  .cursor {
+    animation: blink 1s infinite;
+  }
+  
+  
+  .say-hello {
+    background-color: #7cf062;
+    color: #1a1b22;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .hero-img img {
+    width: 360px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+  }
+  
+  .social-icons {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 18px;
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #8ef178;
+    color: #1a1b22;
+  }
+  
+  .scroll-up {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    background-color: #7cf062;
+    color: #1a1b22;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
