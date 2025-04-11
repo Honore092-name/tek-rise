@@ -1,0 +1,2 @@
+# tek-rise
+my portfalio
